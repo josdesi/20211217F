@@ -1,0 +1,23 @@
+/* @font-face {
+  font-family: "MontserratLight";
+  src: local("MontserratLight"),
+    url("./fonts/montserrat-light.ttf") format("truetype");
+} */
+
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: local('RobotoLight'), url('./fonts/Roboto-Light.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'RobotoLight', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
